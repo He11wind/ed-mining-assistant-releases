@@ -38,6 +38,29 @@ The source code is not publicly distributed at this time.
 
 Optional launch modes may be documented per release.
 
+## Guida Rapida Italiana
+
+Per provare la versione PowerShell/console:
+
+1. Apri la pagina dell'ultima release.
+2. Scarica `ED-Mining-Assistant-v0.9.1-win-x64.zip`.
+3. Estrai lo zip in una cartella, per esempio:
+
+```text
+C:\EliteTools\ED Mining Assistant
+```
+
+4. Apri la cartella estratta.
+5. Avvia `start.cmd`.
+
+Per usare anche i dati mercato live EDDN, apri PowerShell nella cartella estratta e lancia:
+
+```powershell
+.\start.cmd --eddn --lang=it
+```
+
+Nota: questa e' una versione console/dev, non ancora overlay. Legge i file locali di Elite Dangerous e salva cache/storico nella cartella `.runtime`.
+
 ## Current Console Controls
 
 - `r`: full refresh of displayed state: Journal, Cargo.json, Market.json, cache and sales history
