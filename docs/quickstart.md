@@ -15,13 +15,22 @@ C:\EliteTools\ED Mining Assistant
 start.cmd
 ```
 
-## Recommended Launch
+## Recommended Live Market Launch
 
-For live market updates, use the EDDN-enabled start command when provided:
+For live market updates, run:
 
 ```text
-start.cmd --eddn
+start-eddn.cmd
 ```
+
+If you start from PowerShell, use:
+
+```text
+.\start.cmd
+.\start-eddn.cmd
+```
+
+PowerShell does not run commands from the current folder unless you prefix them with `.\`.
 
 ## Language
 

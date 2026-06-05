@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.2
+
+- Adds `start-eddn.cmd` for one-click EDDN startup.
+- Clarifies PowerShell usage with `.\start.cmd` and `.\start-eddn.cmd`.
+- Removes the need to pass `--lang=it` in quick start instructions because language is auto-detected.
+
 ## 0.9.1
 
 - Detects startup language from the system locale.

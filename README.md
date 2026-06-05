@@ -10,7 +10,7 @@ It reads your local Elite Dangerous Journal, Cargo.json, Market.json and optiona
 - review sale revenue and extra value against market mean prices
 - inspect prospector reports and known hotspots
 
-Current public build: **0.9.1**
+Current public build: **0.9.2**
 
 ## Distribution
 
@@ -34,7 +34,7 @@ The source code is not publicly distributed at this time.
 To try the PowerShell/console version:
 
 1. Open the latest release page.
-2. Download `ED-Mining-Assistant-v0.9.1-win-x64.zip`.
+2. Download `ED-Mining-Assistant-v0.9.2-win-x64.zip`.
 3. Extract the zip to a folder, for example:
 
 ```text
@@ -44,11 +44,16 @@ C:\EliteTools\ED Mining Assistant
 4. Open the extracted folder.
 5. Run `start.cmd`.
 
-To enable live EDDN market data, open PowerShell in the extracted folder and run:
+For live EDDN market data, run `start-eddn.cmd`.
+
+PowerShell alternative:
 
 ```powershell
-.\start.cmd --eddn
+.\start.cmd
+.\start-eddn.cmd
 ```
+
+PowerShell requires the `.\` prefix for commands in the current folder.
 
 Note: this is a console/dev version, not the future overlay app yet. It reads local Elite Dangerous files and stores cache/history in the `.runtime` folder.
 
@@ -57,7 +62,7 @@ Note: this is a console/dev version, not the future overlay app yet. It reads lo
 Per provare la versione PowerShell/console:
 
 1. Apri la pagina dell'ultima release.
-2. Scarica `ED-Mining-Assistant-v0.9.1-win-x64.zip`.
+2. Scarica `ED-Mining-Assistant-v0.9.2-win-x64.zip`.
 3. Estrai lo zip in una cartella, per esempio:
 
 ```text
@@ -67,11 +72,16 @@ C:\EliteTools\ED Mining Assistant
 4. Apri la cartella estratta.
 5. Avvia `start.cmd`.
 
-Per usare anche i dati mercato live EDDN, apri PowerShell nella cartella estratta e lancia:
+Per usare anche i dati mercato live EDDN, avvia `start-eddn.cmd`.
+
+Alternativa da PowerShell:
 
 ```powershell
-.\start.cmd --eddn --lang=it
+.\start.cmd
+.\start-eddn.cmd
 ```
+
+In PowerShell serve il prefisso `.\` per eseguire comandi dalla cartella corrente.
 
 Nota: questa e' una versione console/dev, non ancora overlay. Legge i file locali di Elite Dangerous e salva cache/storico nella cartella `.runtime`.
 
