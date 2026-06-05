@@ -18,6 +18,37 @@ ED Mining Assistant is currently distributed as a freeware/proprietary binary pa
 
 The source code is not publicly distributed at this time.
 
+The release launcher scripts are public in this repository:
+
+- [`start.cmd`](start.cmd)
+- [`start-eddn.cmd`](start-eddn.cmd)
+
+## Verify Download
+
+Release archive:
+
+```text
+ED-Mining-Assistant-v0.9.2-win-x64.zip
+```
+
+SHA256:
+
+```text
+8ec0ff6e7669464c652b8455c7d07ed56183064deeaa3d719be12745e9ad56d0
+```
+
+PowerShell verification:
+
+```powershell
+Get-FileHash .\ED-Mining-Assistant-v0.9.2-win-x64.zip -Algorithm SHA256
+```
+
+The same checksum is also provided in:
+
+```text
+ED-Mining-Assistant-v0.9.2-win-x64.zip.sha256
+```
+
 ## Requirements
 
 - Windows 10/11
