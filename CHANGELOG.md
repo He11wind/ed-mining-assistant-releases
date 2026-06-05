@@ -5,6 +5,7 @@
 - Adds `start-eddn.cmd` for one-click EDDN startup.
 - Clarifies PowerShell usage with `.\start.cmd` and `.\start-eddn.cmd`.
 - Removes the need to pass `--lang=it` in quick start instructions because language is auto-detected.
+- Adds public SHA256 and VirusTotal verification links for the release archive and launcher scripts.
 
 ## 0.9.1
 

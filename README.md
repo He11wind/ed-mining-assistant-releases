@@ -49,6 +49,14 @@ The same checksum is also provided in:
 ED-Mining-Assistant-v0.9.2-win-x64.zip.sha256
 ```
 
+VirusTotal reports:
+
+- [Release zip](https://www.virustotal.com/gui/file/8ec0ff6e7669464c652b8455c7d07ed56183064deeaa3d719be12745e9ad56d0)
+- [start.cmd](https://www.virustotal.com/gui/file/f97a096d870e3cdca64390469e881f9111a41f735ccbb29eef31c5375966befd)
+- [start-eddn.cmd](https://www.virustotal.com/gui/file/df306a226bfc700b307005f96338ba687cfe0f1aace13c97b252a2f6f107fb26)
+
+VirusTotal may warn that the zip is a multi-file archive. That is expected: the package contains the app build, launcher scripts and runtime dependencies. The launcher scripts are public in this repository so they can be inspected before running the app.
+
 ## Requirements
 
 - Windows 10/11
