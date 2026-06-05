@@ -31,12 +31,26 @@ The source code is not publicly distributed at this time.
 
 ## Quick Start
 
-1. Download the latest release archive.
-2. Extract it to a folder you control.
-3. Run `start.cmd`.
-4. Keep the console open while playing Elite Dangerous.
+To try the PowerShell/console version:
 
-Optional launch modes may be documented per release.
+1. Open the latest release page.
+2. Download `ED-Mining-Assistant-v0.9.1-win-x64.zip`.
+3. Extract the zip to a folder, for example:
+
+```text
+C:\EliteTools\ED Mining Assistant
+```
+
+4. Open the extracted folder.
+5. Run `start.cmd`.
+
+To enable live EDDN market data, open PowerShell in the extracted folder and run:
+
+```powershell
+.\start.cmd --eddn
+```
+
+Note: this is a console/dev version, not the future overlay app yet. It reads local Elite Dangerous files and stores cache/history in the `.runtime` folder.
 
 ## Guida Rapida Italiana
 
