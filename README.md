@@ -24,6 +24,20 @@ Current public testing build: **0.11.0**
 - Italian, English, French and German console translations.
 - Consistent color coding for opportunities, warnings, locations, commodities and economic values.
 
+## Screenshots
+
+### Unified Mining Plan
+
+Market opportunities, Journal hotspots and Spansh mining zones are combined into one ranked plan.
+
+![ED Mining Assistant unified mining plan](docs/images/mining-plan-v0.11.0.png)
+
+### Mining Run Profitability
+
+Completed runs include revenue, yield, hourly profitability and comparison with historical results.
+
+![ED Mining Assistant mining run profitability report](docs/images/run-profitability-v0.11.0.png)
+
 ## Data Sources
 
 - **Local Elite Dangerous files:** commander state, cargo, market, loadout and mining events.
