@@ -1,11 +1,12 @@
 # Roadmap
 
-## Near Term
+## Console Testing
 
-- Configurable maximum age for EDDN market data.
-- Better mining run reports with duration and credits/hour.
-- Public binary release packaging.
-- Installer/portable build pipeline.
+- Community testing of the unified mining plan.
+- Tune Spansh/EDDN economic ranking with real mining runs.
+- Improve active mining-time measurement and historical analytics.
+- Continue translation review for Italian, English, French and German.
+- Add automated package and verification checks.
 
 ## Overlay App
 
@@ -19,16 +20,21 @@ Planned stack:
 Target features:
 
 - transparent always-on-top overlay
-- compact panels for cargo, sell recommendation, prospector and current mining run
-- draggable/resizable layout
-- tray icon
-- settings UI
-- console/dev mode retained for diagnostics
+- compact mining-plan, cargo, prospector and run panels
+- draggable and resizable layout
+- settings UI and tray controls
+- retained console/diagnostic mode
+
+## Distribution
+
+- portable Windows package
+- installer
+- code signing
+- optional automatic update checks
 
 ## Later Ideas
 
-- signed Windows installer
-- optional notification sounds/toasts
-- advanced threshold configuration
-- richer historical analytics
-- optional external data imports
+- optional GameGlass integration if a suitable public/partner interface is available
+- configurable economic scoring
+- charts for run profitability trends
+- optional notifications and sounds

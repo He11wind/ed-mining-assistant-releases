@@ -1,49 +1,65 @@
-# Quick Start
+# Quick Start / Avvio Rapido
 
-## Install
+## English
 
-1. Download the latest release archive.
-2. Extract it to a folder such as:
+1. Install Node.js 20 or newer.
+2. Download `ED-Mining-Assistant-v0.11.0-win-x64.zip`.
+3. Extract the complete archive.
+4. Run `start-eddn.cmd`.
+5. Keep the console open while playing Elite Dangerous.
 
-```text
-C:\EliteTools\ED Mining Assistant
-```
+PowerShell:
 
-3. Run:
-
-```text
-start.cmd
-```
-
-## Recommended Live Market Launch
-
-For live market updates, run:
-
-```text
-start-eddn.cmd
-```
-
-If you start from PowerShell, use:
-
-```text
-.\start.cmd
+```powershell
 .\start-eddn.cmd
 ```
 
-PowerShell does not run commands from the current folder unless you prefix them with `.\`.
+Use `start.cmd` if you do not want the live EDDN listener.
 
-## Language
+Important controls:
 
-The app detects your system language at startup when possible.
+- `p`: show/hide and refresh detailed Spansh zones
+- `d`: change sell-market range
+- `z`: change Spansh zone band
+- `f`: latest completed-run profitability
+- `g`: historical profitability
+- `r`: full data refresh
 
-You can change language at runtime with `l`.
+## Italiano
 
-## Data Files
+1. Installa Node.js 20 o successivo.
+2. Scarica `ED-Mining-Assistant-v0.11.0-win-x64.zip`.
+3. Estrai l'intero archivio.
+4. Avvia `start-eddn.cmd`.
+5. Lascia aperta la console mentre giochi a Elite Dangerous.
 
-The app reads Elite Dangerous files from:
+Da PowerShell:
+
+```powershell
+.\start-eddn.cmd
+```
+
+Usa `start.cmd` se non vuoi attivare il listener EDDN live.
+
+Comandi principali:
+
+- `p`: mostra/nasconde e aggiorna il dettaglio zone Spansh
+- `d`: cambia il range mercati di vendita
+- `z`: cambia la fascia zone Spansh
+- `f`: profittevolezza dell'ultima run conclusa
+- `g`: profittevolezza storica
+- `r`: refresh completo dei dati
+
+## Local Data
+
+The app reads:
 
 ```text
 %userprofile%\Saved Games\Frontier Developments\Elite Dangerous\
 ```
 
-Runtime cache and exports are stored locally in `.runtime/`.
+Runtime data is stored in the extracted app folder under:
+
+```text
+.runtime\
+```
