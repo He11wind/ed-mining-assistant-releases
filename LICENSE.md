@@ -1,19 +1,14 @@
-# License
+# PolyForm Noncommercial License 1.0.0
 
-Copyright 2026 Fudus OÜ.
+Required Notice: Copyright 2026 Fudus OÜ (https://fudus.net). Original project: ED Mining Assistant.
 
-ED Mining Assistant is distributed as freeware/proprietary software unless a separate written license is provided.
+The official and controlling license text is available at:
 
-You may:
+https://polyformproject.org/licenses/noncommercial/1.0.0/
 
-- download and use official binary releases for personal gameplay assistance
-- share links to the official release page
+A copy of the complete license is included in the source repository:
 
-You may not:
+https://github.com/He11wind/ed-mining-assistant-console/blob/main/LICENSE.md
 
-- redistribute modified copies
-- reverse engineer, decompile or attempt to extract proprietary source code
-- sell, repackage or commercially distribute the software
-- use the software name, branding or release assets to imply endorsement
-
-This license may change before a public production release.
+Commercial use is not licensed. Contact Fudus OÜ for a separate written
+commercial license.

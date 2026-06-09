@@ -1,5 +1,13 @@
 # Changelog
 
+## Source Publication and Licensing
+
+- Source code is now publicly available from the official source repository.
+- Added equal English and Italian documentation.
+- Added Frontier independence disclaimers, EDDN and Spansh acknowledgements,
+  Fudus OÜ attribution, and PolyForm Noncommercial 1.0.0 licensing information.
+- Commercial use and commercial forks require a separate written license.
+
 ## 0.11.0
 
 - Adds Spansh mining-zone search with persistent local cache.
